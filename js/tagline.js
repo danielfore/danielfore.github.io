@@ -1,13 +1,13 @@
 var textArray = [
     'War & Pizzas',
     'Mega Epic Pizza Battle',
-    'Pizza-Palooza',
+    'Pizza Palooza',
     "A Slice o' The City",
     'Not a Pizza Tour',
     "Gotta Slice 'em All",
     'Pizza For a Purpose',
-    'Eatsa Pizza',
-    "Sacramento's Best Pies"
+    "Sacramento's Best Pies",
+    'There Can Only Be One!'
 ];
 var randomNumber = Math.floor(Math.random()*textArray.length);
 
