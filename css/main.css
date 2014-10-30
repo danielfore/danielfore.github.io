@@ -5,6 +5,12 @@ body {
 h1 {
     font-family: 'Satisfy', cursive;
     font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 300;
+    color: rgba(0,0,0,0.4);
 }
 
 #coming-soon {
