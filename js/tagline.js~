@@ -1,0 +1,8 @@
+var textArray = [
+    'song1.ogg',
+    'song2.ogg'
+];
+var randomNumber = Math.floor(Math.random()*textArray.length);
+
+openElement=document.getElementById("tagline");
+openElement.innerHTML=textArray[randomNumber];
