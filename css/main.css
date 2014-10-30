@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
 footer {
@@ -24,13 +25,15 @@ h2 {
     color: rgba(0,0,0,0.4);
 }
 
+
 #bg {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: auto;
     background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),
                         url('http://chicagofire.com/images/banner_thin.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 30%;
 }
 
 #coming-soon {
