@@ -4,4 +4,17 @@ body {
 
 h1 {
     font-family: 'Satisfy', cursive;
+    font-size: 4em;
+}
+
+#coming-soon {
+    margin: auto;
+    width: auto;
+    height: 10em;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
