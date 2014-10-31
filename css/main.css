@@ -12,7 +12,7 @@ footer {
     right: 0;
     margin: 0.5em;
     font-size: 0.8em;
-    color: #777;
+    color: #666;
 }
 
 h1 {
@@ -35,6 +35,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30%;
+    -webkit-filter: blur(3px);
 }
 
 #coming-soon {
