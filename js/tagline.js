@@ -8,7 +8,7 @@ var textArray = [
     'Pizza For a Purpose',
     "Sacramento's Best Pies",
     'There Can Only Be One!',
-    'Slice, Judge, and Rock & Roll'
+    "Slice, Judge, Rock 'n' Roll"
 ];
 var randomNumber = Math.floor(Math.random()*textArray.length);
 
