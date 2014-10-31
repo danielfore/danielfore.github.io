@@ -12,17 +12,16 @@
         <link rel="stylesheet" href="/css/animate.css"/>
     </head>
     <body>
-        <div id="bg" class="animated fadeIn view-height">
+        <div id="bg" class="animated fadeIn">
         </div>
         <div id="coming-soon">
             <h2 class="animated delayed fadeIn">Coming Soon</h2>
             <h1 class="animated delayed-long fadeIn">Pizzateur</h1>
-            <h2 class="animated delayed-very-long fadeIn" id="tagline"></h2>
+            <h2 class="animated delayed-long fadeIn" id="tagline"></h2>
         </div>
         <footer class="animated delayed fadeIn">
             © 2014 West of Chicago Restaurants Inc.
         </footer>
     <script src="/js/tagline.js"></script>
-    <script src="/js/viewheight.js"></script>
     </body>
 </html>

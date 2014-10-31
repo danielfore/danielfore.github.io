@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+footer {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em;
+    font-size: 0.8em;
+    color: #666;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 300;
+    color: #777;
+}
+
+
+#bg {
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),
+                        url('http://chicagofire.com/images/banner_thin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    -webkit-filter: blur(3px);
+}
+
+#coming-soon {
+    margin: auto;
+    width: auto;
+    height: 10em;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
