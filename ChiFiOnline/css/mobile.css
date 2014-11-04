@@ -1,0 +1,404 @@
+/*******
+* Text *
+*******/
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+ol,
+p {
+    max-width: 100%;
+    font-size: 0.8em;
+}
+
+ol li {
+    max-width: 92%;
+}
+
+.button,
+.button:visited {
+    margin: 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+    width: 85%;
+    height: 3.5em;
+    line-height: 3.5em;
+    font-size: 0.8em;
+}
+
+/**********
+* GENERAL *
+**********/
+
+.subtitle .diamond {
+    padding: 0 0.5em;
+}
+
+/*******
+* JOBS *
+*******/
+
+.banner.jobs {
+    height: 20em;
+}
+
+/*********
+* Layout *
+*********/
+
+.columns {
+    text-align: justify;
+    max-width: 80%;
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+
+.flex-rows > div {
+    width: auto;
+    padding: 0;
+}
+
+
+.info {
+    font-style: italic;
+    font-size: 0.9em;
+    max-width: 80%;
+    text-align: center;
+}
+
+/*********
+* Menu *
+*********/
+
+.menu h4,
+.menu .flex-rows p {
+    text-align: left;
+}
+
+.menu.apps h1 {
+    padding-top: 2em;
+}
+
+.menu.content {
+    background-attachment: initial;
+    background-position-x: center;
+}
+
+/*********
+* NAVBAR *
+*********/
+
+nav .internal {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+.mobile-no-show {
+    display: none;
+}
+
+nav > .logo > li {
+    margin: 0;
+    margin-top: -0.1em; 
+}
+
+nav > .logo img {
+    width: 2em;
+}
+
+nav > .mobile-logo > li {
+    width: 100%;
+    position: absolute;
+    top: 0.3em;
+    text-align: center;
+}
+
+nav > .mobile-logo img {
+    height: 1.25em;
+}
+
+nav > .mobile > li {
+    float: left;
+    margin: 0 1em;
+    margin-top: 6px;
+    position: relative;
+}
+
+.mobile-links {
+    display: table;
+    margin: 0;
+}
+
+.mobile-links ul a,
+.mobile-links ul a:visited {
+    width: 100%;
+    margin: 0;
+}
+
+nav > .external > li > a > img {
+    height: 1.4em;
+}
+
+/**********
+* BANNER *
+**********/
+
+.banner {
+    background-position: right bottom;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.banner h1 {
+    font-size: 1.5em;
+}
+
+.content.loyalty-banner .mobile {
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    right: 0;
+}
+
+.content.home.test {
+    background-image: linear-gradient(rgba(30,20,10,0.6),rgba(30,20,10,0.5)),url(/images/banner_deep_interior.jpg);
+    background-position: center;
+    background-position-y: center;
+}
+
+.content.home .biglogo {
+    width: 90%;
+}
+
+.videoBG {
+    display: none;
+}
+
+.banner .button,
+.content.home .button {
+    position: relative;
+    width: 10em;
+    padding: 0 0.5em;
+}
+
+.underline {
+    margin-left: 0.3em;
+    width: 2em;
+}
+
+.content {
+    padding: 3.5em 1em;
+}
+
+/*********
+* EVENTS *
+**********/
+
+.event {
+    margin: 1em auto;
+    width: 100%;
+    text-align: center;
+}
+
+.event > div {
+    margin: auto;
+    display: block;
+}
+
+.event p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+.event-img {
+    height: 6em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/**********
+* LOYALTY *
+**********/
+
+.loyalty.flex-rows > div {
+    width: 100%;
+}
+
+.banner.deep {
+    background-size: cover;
+}
+
+.banner.deep {
+    background-position: center bottom;
+}
+
+#loyalty-logo {
+    width: 80%;
+    padding-top: 30%
+}
+
+.loyalty .banner_bottom_center {
+    display: block
+}
+
+.loyalty.content > img {
+    margin: 1.5em auto;
+    height: 3em;
+    display: block;
+}
+
+.banner.deep .overlay {
+    background-color: #402412;
+    opacity: 0.65;
+}
+
+
+.banner.deep .overlay-text {
+    padding: 1em;
+    height: 94%;
+}
+
+.banner.deep .overlay-text > div:first-child,
+.banner.deep .overlay-text > div {
+    flex: 1;
+}
+
+.banner.deep .overlay-text h1 {
+    font-size: 8.5vw;
+}
+
+.banner.deep .overlay-text h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 75%;
+}
+
+.banner.deep .overlay-text p {
+    font-size: 0.85em;
+    line-height: 1.25;
+    width: 75%;
+}
+
+#faq.content h3,
+#faq.content p {
+    text-align: left;
+    max-width: 87%;
+    margin: 1em auto;
+}
+
+#rules ul {
+    padding: 0.5em;
+}
+
+#rules ul > li {
+    font-size: 0.8em;
+}
+
+/************
+* LOCATIONS *
+************/
+
+.content > img {
+    margin-top: 2em;
+}
+
+.location {
+    margin: 1em auto;
+    width: 90%;
+    text-align: center;
+}
+
+.location > div {
+    margin: auto;
+    display: block;
+}
+
+.location h2,
+.location p {
+    line-height: 1.5em;
+}
+
+.location > img {
+    height: 6em;
+}
+
+.location .manager {
+    width: 100%;
+    display: block;
+}
+
+/*******
+* Eric *
+*******/
+
+.content.eric {
+    background-position: 60%;
+}
+
+/**********
+* SKYLINE *
+**********/
+
+.skylinecontent {
+    padding: 1em;
+}
+
+.skylinecontent > img {
+    width: 100%;
+}
+
+.skylinecontent > div {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+/*********
+* FOOTER *
+*********/
+
+footer {
+    text-align: center;
+}
+
+footer .logo {
+    width: 90%;
+    margin: 0;
+    padding: 1em;
+}
+
+footer .contact {
+    margin: 1em 0;
+    float: none;
+    text-align: center;
+    margin-top: 0;
+}
+
+footer .contact p {
+    text-align: center;
+    font-size: 0.85em;
+    margin: auto;
+}
+
+footer .links {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer .links a {
+    float: none;
+    display: block;
+}
